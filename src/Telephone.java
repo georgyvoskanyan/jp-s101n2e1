@@ -4,4 +4,9 @@ public class Telephone {
     public void call(String numberBeingCalled) {
         System.out.printf("S’està trucant al número %s\n", numberBeingCalled);
     }
+
+    public Telephone(String brand, String model) {
+        this.brand = brand;
+        this.model = model;
+    }
 }
